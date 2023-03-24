@@ -1,0 +1,11 @@
+image: k8s.gcr.io/autoscaling/cluster-autoscaler:v1.23.0
+command:
+  eksClusterName: ''
+resources:
+  requests:
+    cpu: '300m'
+    memory: '600Mi'
+  limits:
+    cpu: '300m'
+    memory: '600Mi'
+  
